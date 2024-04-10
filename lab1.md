@@ -5,3 +5,9 @@ With no arguments, it takes me to the home diretory.
 no error.
 
 cd wavelet
+![Image](WeChatc128289071e07651dacb18a92c936315.png)
+Absolute path before:Home
+Since there is a diretory as my argument, cd can bring me to the diretory.
+no error.
+
+cd README.md
