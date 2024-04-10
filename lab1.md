@@ -11,3 +11,6 @@ Since there is a diretory as my argument, cd can bring me to the diretory.
 no error.
 
 cd README.md
+![Image](WeChatffddf02ba04d15fd565c11f350870839.png)
+Absolute path before:wavelet
+With a file as an argument,it could causes an error because cd would takes us to diretories not files.
