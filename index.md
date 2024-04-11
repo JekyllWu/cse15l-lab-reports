@@ -23,7 +23,7 @@ Without any argument behind, `ls` just helps me list all files in the current di
 `ls PTK`
 ![Image](lsptk.png)
 Absolute path before:`Desktop`
-With an argument `PTK`, `ls` helps me list all files and folders in the diretory PTK.
+With an argument `PTK`, `ls` helps me list all files and folders in the diretory `PTK`.
 
 `ls CompileTimeErrors.java`
 ![Image](lsjava.png)
@@ -38,7 +38,7 @@ When I tried to do cat without any arguments, it broke down because `cat` is int
 `cat PTK/`
 ![Image](catPTK.png)
 Absolute path before:`Desktop`
-When I tried to do cat with a directory as argument, it shows that there are some errors because PTK is an directory and `cat` is intended to work with files.
+When I tried to do cat with a directory as argument, it shows that there are some errors because `PTK` is an directory and `cat` is intended to work with files.
 
 `cat CompileTimeErrors.java `
 ![Image](catjava.png)
