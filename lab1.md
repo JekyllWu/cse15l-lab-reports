@@ -21,12 +21,12 @@ Absolute path before:Desktop
 Without any argument behind, ls just helps me list all files in the current diretory. That's why it lists all files in my Desktop.
 
 ls PTK
-![Image](ls ptk.png)
+![Image](lsptk.png)
 Absolute path before:Desktop
 With an argument PTK, ls helps me list all files and folders in the diretory PTK.
 
 ls CompileTimeErrors.java
-![Image](ls java.png)
+![Image](lsjava.png)
 Absolute path before:Desktop
 With an argument CompileTimeErrors.java. ls helps me list the file itself without errors.
 
@@ -36,11 +36,11 @@ Absolute path before:Desktop
 When I tried to do cat without any arguments, it broke down because cat is intended to print out the content in the file, and there are no files there. 
 
 cat PTK/
-![Image](cat PTK.png)
+![Image](catPTK.png)
 Absolute path before:Desktop
 When I tried to do cat with a directory as argument, it shows that there are some errors because PTK is an directory and cat is intended to work with files.
 
 cat CompileTimeErrors.java 
-![Image](cat java.png)
+![Image](catjava.png)
 Absolute path before:Desktop
 When I tried to do cat with a file as argument, it printed out the content inside the file with no errors.
