@@ -15,7 +15,7 @@ cd README.md
 Absolute path before:wavelet
 With a file as an argument,it could causes an error because cd would takes us to diretories not files.
 
-ls\\n
+ls
 <img width="700" alt="WeChat9e1474cd906a066eaf82aa915fb70235" src="https://github.com/JekyllWu/cse15l-lab-reports/assets/166572245/e4ce0ebb-1653-46ed-ae7b-e1ef66cacfa9">
 Absolute path before:Desktop
 Without any argument behind, ls just helps me list all files in the current diretory. That's why it lists all files in my Desktop.
