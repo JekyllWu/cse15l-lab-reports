@@ -19,3 +19,6 @@ Part 2:
 ![Image](part2pri.png)
 ![Image](part2pub.png)
 ![Image](login.png)
+
+Part 3:
+First of all, I am a beginner in computer science. I have never been exposed to this area before. The most shocking thing I have learned in the past two weeks is that we can connect  to an external computer to work. In the past, I always thought we could only use local computers. In addition, an new thing I learned is that we can use an git hub account to stored our work, which is very useful if we want to explore this area deeper.
