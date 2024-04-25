@@ -16,3 +16,6 @@ Question:
 3. Before the request, the relevant field `history` was "jpolitz:Hello", and afterward it became "jpolitz:Hello\n yash:How are you". The port number stayed same because we are still in the same port.
 
 Part 2:
+![Image](part2pri.png)
+![Image](part2pub.png)
+![Image](longin.png)
