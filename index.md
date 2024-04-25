@@ -1,11 +1,18 @@
+Part 1:
 code:
-![Image](code1.png)
-![Image](code2.png)
+![Image](code3.png)
+![Image](code4.png)
 using:
-![Image](using1.png)
+![Image](using3.png)
 Question:
-1. It called the method `handleRequest(URI url)` and `getPath()`
-2. The only relevant argument of this method is `url`,and the value of the relevant field is 3300 which is the number of port.
-3. This relevant field got no changes because 
+1. It called the methods `handleRequest(URI url)`, `display()`and `getPath()`.They are called to get the path and query, then display the chat history.
+2. The relevant arguments of `handleRequest(URI url)` is `url`, It is where the path and query from. And a relevant field is `history` which is the list of the chat history.
+3. Before the request, the relevant field `history` was empty, and afterward it became "jpolitz:Hello". The port number became 8889.
 
-![Image](using2.png)
+![Image](using4.png)
+Question:
+1. Same as before, the methods `handleRequest(URI url)`, `display()`and `getPath()` were called. They are called to get the path and query, then display the chat history.
+2. Same as before, The relevant arguments of `handleRequest(URI url)` is `url`, It is where the path and query from. And a relevant field is `history` which is the list of the chat history.
+3. Before the request, the relevant field `history` was "jpolitz:Hello", and afterward it became "jpolitz:Hello\n yash:How are you". The port number stayed same because we are still in the same port.
+
+Part 2:
