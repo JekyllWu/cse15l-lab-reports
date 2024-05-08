@@ -1,21 +1,8 @@
 Part 1:
 code:
-![Image](code3.png)
-![Image](code4.png)
-using:
-![Image](using3.png)
-Question:
-1. It called the methods `handleRequest(URI url)`, `display()`and `getPath()`.They are called to get the path and query, then display the chat history.
-2. The relevant arguments of `handleRequest(URI url)` is `url`, It is where the path and query from. And a relevant field is `history` which is the list of the chat history.
-3. Before the request, the relevant field `history` was empty, and afterward it became "jpolitz:Hello". The port number became 8889.
-![Image](using4.png)
-Question:
-1. Same as before, the methods `handleRequest(URI url)`, `display()`and `getPath()` were called. They are called to get the path and query, then display the chat history.
-2. Same as before, The relevant arguments of `handleRequest(URI url)` is `url`, It is where the path and query from. And a relevant field is `history` which is the list of the chat history.
-3. Before the request, the relevant field `history` was "jpolitz:Hello", and afterward it became "jpolitz:Hello\n yash:How are you". The port number stayed same because we are still in the same port.
-Part 2:
-![Image](part2pri.png)
-![Image](pubkey.png)
-![Image](login.png)
-Part 3:
-First of all, I am a beginner in computer science. I have never been exposed to this area before. The most shocking thing I have learned in the past two weeks is that we can connect  to an external computer to work. In the past, I always thought we could only use local computers. In addition, an new thing I learned is that we can use an git hub account to stored our work, which is very useful if we want to explore this area deeper.
+![Image](witherror.png)
+![Image](without.png)
+![Image](sym.png)
+![Image](before.png)
+![Image](after.png)
+According to the original code, it sets the value of `arr[i]` to `arr[arr.length-i-1]` which is incorrect because as `i` exceeds `arr.length/2`, `arr[i]` would revert to its original value since we stored its original value in the first half of the array. Therefore, the solution would be to set `i` to be less than `arr.length/2` and create a new integer called `temp` to store the original value of `arr[i]`, then assign the value of `arr[i]` to be the value of `arr[arr.length-i-1]`, and lastly assign the value of `[arr.length-i-1]` to be the original value of `arr[i]`. This method can ensure each value would only be changed once and never revert to its original value.
