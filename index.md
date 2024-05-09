@@ -1,27 +1,23 @@
 Part 1:
-Test with errors:
-`@Test
+Test with errors:`@Test
 public void testReverseInPlace2() {
      int[] input1 = {1,2 };
        ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{2,1}, input1);
 	 }`
-Test without errors:
-`@Test
+Test without errors:`@Test
  public void testReverseInPlace3() {
      int[] input1 = {};
        ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{}, input1);
 	}`
 Failure of test:![Image](sym.png)
-The code before fixed:
-`static void reverseInPlace(int[] arr){
+The code before fixed:`static void reverseInPlace(int[] arr){
 for(int i=0;i<arr.length;i+=1){
 arr[i]=arr[arr.length-i-1];
 }
 }`
-The code after fixed:
-`static void reverseInPlace(int[] arr) {
+The code after fixed:`static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
       int temp=arr[i];
       arr[i]=arr[arr.length-i-1];
