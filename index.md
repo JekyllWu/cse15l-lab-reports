@@ -1,6 +1,18 @@
 Part 1:
-Test with errors:![Image](witherror.png)
-Test without errors:![Image](without.png)
+Test with errors:
+`  @Test
+	public void testReverseInPlace2() {
+    int[] input1 = {1,2 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{2,1}, input1);
+	}`
+Test without errors:
+`  @Test
+	public void testReverseInPlace3() {
+    int[] input1 = {};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{}, input1);
+	}`
 Failure of test:![Image](sym.png)
 The code before fixed:![Image](before.png)
 The code after fixed:![Image](after.png)
