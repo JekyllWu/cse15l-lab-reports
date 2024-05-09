@@ -1,6 +1,6 @@
 Part 1:
 Test with errors:
-`  @Test
+`@Test
 public void testReverseInPlace2() {
      int[] input1 = {1,2 };
        ArrayExamples.reverseInPlace(input1);
@@ -8,7 +8,7 @@ public void testReverseInPlace2() {
 	 }`
 
 Test without errors:
-`  @Test
+`@Test
  public void testReverseInPlace3() {
      int[] input1 = {};
        ArrayExamples.reverseInPlace(input1);
