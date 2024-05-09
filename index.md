@@ -8,7 +8,8 @@ According to the original code, it sets the value of `arr[i]` to `arr[arr.length
 
 Part 2:
 I would choose the command-line `find`:
-Option 1:'-type'
+
+Option 1:`-type`
 By this command-line, we can search for all the contents with a specific type.
 
 Example1: 
