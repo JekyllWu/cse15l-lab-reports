@@ -1,6 +1,7 @@
 Part 1:
 Test with errors:
-	@Test
+
+ 	@Test
 
 	public void testReverseInPlace2() {
 
@@ -13,7 +14,8 @@ Test with errors:
 	}
 
 Test without errors:
-	@Test
+
+ 	@Test
  
  	public void testReverseInPlace3() {
  
@@ -26,7 +28,8 @@ Test without errors:
  	}
 Failure of test:![Image](sym.png)
 The code before fixed:
-	static void reverseInPlace(int[] arr){
+
+ 	static void reverseInPlace(int[] arr){
 
 	for(int i=0;i<arr.length;i+=1){
 
@@ -36,7 +39,8 @@ The code before fixed:
 
 	}
 The code after fixed:
-	static void reverseInPlace(int[] arr) {
+
+ 	static void reverseInPlace(int[] arr) {
  
     	for(int i = 0; i < arr.length/2; i += 1) {
     
