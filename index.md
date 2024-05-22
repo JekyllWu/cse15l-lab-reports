@@ -1,8 +1,8 @@
 Part 1:
 Test with errors:
-`@Test
+	@Test
 
-public void testReverseInPlace2() {
+	public void testReverseInPlace2() {
 
 	int[] input1 = {1,2 };
 
@@ -10,7 +10,7 @@ public void testReverseInPlace2() {
 
 	assertArrayEquals(new int[]{2,1}, input1);
 
-}`
+}
 
 Test without errors:
 `@Test
