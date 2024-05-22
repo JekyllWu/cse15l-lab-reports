@@ -1,11 +1,11 @@
 Part 1:
 Test with errors:
-`@Test
-public void testReverseInPlace2() {
-int[] input1 = {1,2 };
-ArrayExamples.reverseInPlace(input1);
-assertArrayEquals(new int[]{2,1}, input1);
-	}`
+> @Test
+> public void testReverseInPlace2() {
+> int[] input1 = {1,2 };
+> ArrayExamples.reverseInPlace(input1);
+> assertArrayEquals(new int[]{2,1}, input1);
+> }
 Test without errors:
 `@Test
  
